@@ -4,6 +4,6 @@
 
 void handle_error(const char *message) {
     fprintf(stderr, "Error: %sn", message);
-    fflush(stderr); // Убедитесь, что все данные выведены немедленно
+    fflush(stderr); 
 }
 
